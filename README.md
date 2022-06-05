@@ -16,3 +16,13 @@ The mean and median for suspension coil PSI is almost 1500 for all lots (1498.78
 ![https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/suspension_lotSummary.png](https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/suspension_lotSummary.png)
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
 - The current data shows that the manufacturing data meets this specification for all lots in total, but Lot 3 does not meet this specification individually. Lots 1 and 2 have low enough variance to cover Lot 3's variance.
+
+## T-Tests on Suspension Coils
+The T-Test for all suspension coils shows a mean of 1498.78 and a p-Value of 0.06.
+![https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_totalSummary.png](https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_totalSummary.png)
+Lot 1 shows a mean of 1500 and a p-Value of 1
+![https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_lot1Summary.png](https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_lot1Summary.png)
+Lot 2 shows a mean of 1500.2 and a p-Value of 0.607
+![https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_lot2Summary.png](https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_lot2Summary.png)
+Lot 3 shows a mean of 1496.14 and a p-Value of 0.042. This is the greatest difference from the mean and has a low p-Value. I reccomend examining Lot 3 more closely.
+![https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_lot3Summary.png](https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_lot3Summary.png)
