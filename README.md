@@ -20,9 +20,27 @@ The mean and median for suspension coil PSI is almost 1500 for all lots (1498.78
 ## T-Tests on Suspension Coils
 The T-Test for all suspension coils shows a mean of 1498.78 and a p-Value of 0.06.
 ![https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_totalSummary.png](https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_totalSummary.png)
+
 Lot 1 shows a mean of 1500 and a p-Value of 1
+
 ![https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_lot1Summary.png](https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_lot1Summary.png)
+
 Lot 2 shows a mean of 1500.2 and a p-Value of 0.607
+
 ![https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_lot2Summary.png](https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_lot2Summary.png)
+
 Lot 3 shows a mean of 1496.14 and a p-Value of 0.042. This is the greatest difference from the mean and has a low p-Value. I reccomend examining Lot 3 more closely.
+
 ![https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_lot3Summary.png](https://raw.githubusercontent.com/kwarzeski/MechaCar_Statistical_Analysis/main/images/tTest_lot3Summary.png)
+
+## Study Design: MechaCar vs Competition
+
+Cost efficiency is a key metric in buying a car. I propose a comparison of MechaCar's projected maintenance costs vs the competition. Data showing annual maintenance costs for the close competitors should be collected.
+
+Metrics required would be maintenance costs - annual costs of repairs. Preferably the data would be broken up by year and show the age of the car with each year's maintenance costs, so that a comparison can show how the maintenance costs compare over time.
+
+The Null Hypothesis is that the MechaCar has a comparable maintenance costs vs. the competition's cars. The Alternative Hypothesis is that the MechaCar has maintenance costs that are statistically different from its competitors
+
+I would test summary statistics (summarize() function) with bins to show maintenance costs across decades of ownership. I would also test using linear regression to show projected maintenance costs for the MechaCar, using the short term maintenance costs that can already be collected.
+
+The data needed includes: competitor's cars' annual maintenance costs, MechaCar's project maintenance costs, costs for parts and service.
